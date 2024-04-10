@@ -19,7 +19,6 @@ public class StripComments {
             lines = text.split(escapeSequence);
         } else {
             lines = text.split("\n");
-
             escapeSequence = "\n";
         }
 
